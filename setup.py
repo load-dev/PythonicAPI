@@ -12,7 +12,7 @@ setup(
     author_email="<load@load-dev.xyz>",
     description=DESCRIPTION,
     packages=find_packages(),
-    install_requires=['json', 'mysql-connector-python'],
+    install_requires=['json', 'mysql-connector-python', 'flask'],
     keywords=['python', 'api', 'pythonic api', 'flask superstructure', 'flask', 'sockets', "professional", "requests"],
     classifiers=[
         "Intended Audience :: Developers",
